@@ -23,6 +23,6 @@ def get_pudgy_penguin_head_accessory(token_id, api_key):
         return f"Error: {response.status_code}"
 
 token_id = 3233
-api_key = "64bea4a9cb0c4f91ad17539a23e71f33"
+api_key = ""
 head_accessory = get_pudgy_penguin_head_accessory(token_id, api_key)
 print(f"Head Accessory of Pudgy Penguin #{token_id}: {head_accessory}")
